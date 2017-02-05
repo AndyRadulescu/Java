@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="758.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BillsController">
+   <children>
+      <Button layoutX="541.0" layoutY="322.0" mnemonicParsing="false" onAction="#onBack" text="Back" />
+      <ListView fx:id="paid" layoutX="30.0" layoutY="81.0" prefHeight="204.0" prefWidth="330.0" />
+      <ListView fx:id="unpaid" layoutX="396.0" layoutY="81.0" prefHeight="204.0" prefWidth="330.0" />
+      <Label layoutX="132.0" layoutY="55.0" text="Unpaid bills" />
+      <Label layoutX="504.0" layoutY="55.0" text="Paid bills" />
+      <Button fx:id="payButton" layoutX="132.0" layoutY="322.0" mnemonicParsing="false" text="Pay bill!" />
+      <Label fx:id="lb_Verif" layoutX="109.0" layoutY="353.0" text="Select something first!" textFill="#d71515" visible="false" />
+      <Label fx:id="lb_Cont" layoutX="668.0" layoutY="25.0" prefHeight="17.0" prefWidth="40.0" />
+      <Label layoutX="581.0" layoutY="25.0" text="Account value" />
+      <Label fx:id="lb_Ban" layoutX="30.0" layoutY="285.0" text="Client was banned for the following providers:" textFill="#d71414" visible="false" />
+      <Label fx:id="lb_ValBan" layoutX="259.0" layoutY="285.0" prefHeight="17.0" prefWidth="99.0" textFill="#dd1010" visible="false" />
+   </children>
+</Pane>
