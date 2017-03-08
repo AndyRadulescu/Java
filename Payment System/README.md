@@ -1,6 +1,6 @@
 This is a payment system program made as a project for the second semester of my faculty. This project has been made with the help
-of another student and the purpose was the better understanding of threads and threads syncronization. The project has a built in server
-that helps creating a concurent environment. The project has been lincked to the DB by using JPA .
+of another student and the purpose was the better understanding of threads and threads synchronization. The project has a built in server
+that helps creating a concurrent environment. The project has been linked to the DB by using JPA .
 The graphic interface is made using javaFx .
 
 Note that the above Folder dosn't contain all the folders,so an import won't be possible . It contains all the files needed 
