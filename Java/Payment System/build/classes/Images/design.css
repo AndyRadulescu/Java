@@ -1,0 +1,13 @@
+.root {
+	-fx-background-image: url("/Images/black-Linen.png");
+}
+
+.label {
+	-fx-text-fill: #e8e8e8;
+}
+
+.button {
+	-fx-background-image: url("/Images/witewall_3.png");
+	-fx-text-fill: #383838;
+	fx-background-radius: 4
+}
