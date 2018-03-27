@@ -1,2 +1,0 @@
-This is a Table Tennis game . It is a made using JavaFx.For the time thread I used "KeyFrame".I also tried making the U.I. to look more 3D. For this I used JavaFX fucntions . 
-To play the game press "W"/"S" to move the the left rectangle(racket) up and down. For the second one it's better to use a mouse , not the touchpad of a laptop. You have to press LMB and drag the mouse up and down.Any other usefull information is written as coments among the code lines .
